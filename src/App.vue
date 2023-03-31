@@ -36,7 +36,6 @@ export default {
       children?: Tree[]
     }
 
-    const a = ref('as');
 
     const query = ref('')
     const treeRef = ref<InstanceType<typeof ElTreeV2>>()
@@ -54,7 +53,6 @@ export default {
       return node.name!.includes(query)
     }
     return {
-      a,
       query,
       treeRef,
       data,
