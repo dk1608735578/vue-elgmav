@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <el-input v-model="a" placeholder="Please enter keyword" />
     <el-input
       v-model="query"
       placeholder="Please enter keyword"
